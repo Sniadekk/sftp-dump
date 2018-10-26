@@ -1,6 +1,7 @@
 # sftp-dump
 
-This is a simple script that I am using in few of my node.js projects.
+This is a simple script that I am using in few of my node.js projects. It takes all of the files ( also nested ones ) from given directory and uploads on specified remote server.
+Useful to quickly deploy some bundled files on your test machine.
 
 ## Installation
 `$ npm install --save sftp-dump`
