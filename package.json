@@ -1,0 +1,29 @@
+{
+  "name": "sftp-dump",
+  "version": "1.0.0",
+  "description": "Tool to quickly dump whatever you want, wherever you want via sftp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sniadekk/sftp-dump.git"
+  },
+  "keywords": [
+    "sftp",
+    "ftp",
+    "deploy",
+    "node"
+  ],
+  "author": "Sniadekk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sniadekk/sftp-dump/issues"
+  },
+  "homepage": "https://github.com/Sniadekk/sftp-dump#readme",
+  "dependencies": {
+    "colors": "^1.3.2",
+    "ssh2-sftp-client": "^2.4.0"
+  }
+}
